@@ -163,10 +163,17 @@ color: rgb(88, 87, 87);
     position: absolute;
     margin-left: -110px;
     margin-top: -200px;
+     /* opacity: 0.8;  */
      z-index: -1;
   
 }
 .bottom_secion h3{
     padding-bottom: 20px;
   
+}
+
+#sectio_border{
+    border-left: 8px solid;
+    border-image: linear-gradient(-180deg, orange, blue);
+    border-image-slice: 1;
 }
