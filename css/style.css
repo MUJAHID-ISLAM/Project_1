@@ -163,7 +163,7 @@ color: rgb(88, 87, 87);
     position: absolute;
     margin-left: -110px;
     margin-top: -200px;
-    /* opacity: 0.8; */
+     z-index: -1;
   
 }
 .bottom_secion h3{
