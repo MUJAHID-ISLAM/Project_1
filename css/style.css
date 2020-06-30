@@ -1,3 +1,49 @@
-body {
-    background-color: aliceblue;
+*{margin:0;padding:0;outline:0}
+/* .clear{overflow:hidden; } */
+
+body{
+    font-family: 'Poppins', sans-serif;
+ 
+   
+}
+.header h1{
+   font-size: 45px;
+   font-weight: 500;
+ padding: 30px 0px 10px 0px;
+}
+.header h3{
+    padding-top: 25px;
+     padding-bottom: 15px;
+font-size: 20px;
+color: rgb(14, 13, 13);
+}
+.header p{
+        padding-top: 5px;
+        padding-bottom: 30px;
+        font-size: 17px;
+    color: rgb(88, 87, 87);
+}
+
+.header {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.header img{
+    width: 100%;
+}
+#name-heighlite{
+    color: chocolate;
+} 
+.header a{
+padding:12px 40px;
+border-radius: 10px;
+background-color: rgb(138, 84, 14);
+color: rgb(194, 191, 191);
+outline: 0;
+font-size: large;
+font-weight: bold;
+text-decoration: none;
+
 }
