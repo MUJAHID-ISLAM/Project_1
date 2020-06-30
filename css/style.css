@@ -1,15 +1,27 @@
 *{margin:0;padding:0;outline:0}
-/* .clear{overflow:hidden; } */
+/ .clear{overflow:hidden; } 
 
 body{
     font-family: 'Poppins', sans-serif;
+   
+    
  
    
+}
+p{     font-size: 17px;
+    color: rgb(88, 87, 87);}
+
+.img_section{
+   
+    background-image: url('../images/top-banner.png');
+   background-repeat: no-repeat;
+  
+    height: 600px; 
 }
 .header h1{
    font-size: 45px;
    font-weight: 500;
- padding: 30px 0px 10px 0px;
+ padding: 30px 0px 0px 0px;
 }
 .header h3{
     padding-top: 25px;
@@ -23,7 +35,13 @@ color: rgb(14, 13, 13);
         font-size: 17px;
     color: rgb(88, 87, 87);
 }
+#top_img img{
+position: relative;
+width: 20%;
+top:-500px;
+left: -120px;
 
+}
 .header {
     width: 40%;
     float: left;
@@ -34,16 +52,121 @@ color: rgb(14, 13, 13);
     width: 100%;
 }
 #name-heighlite{
-    color: chocolate;
+    color: orange;
 } 
 .header a{
 padding:12px 40px;
 border-radius: 10px;
-background-color: rgb(138, 84, 14);
-color: rgb(194, 191, 191);
+background-image: linear-gradient(180deg, orange, tomato);
+color:white;
 outline: 0;
 font-size: large;
 font-weight: bold;
 text-decoration: none;
 
+}
+.header a:hover{
+    background-image: linear-gradient(180deg, rgb(206, 143, 27), rgb(194, 43, 17));
+}
+
+.top_section{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 700px;
+
+}
+.top_section img{
+    width: 100%;
+
+}
+.top_section h2{
+    font-size: 30px;
+   font-weight: 700;
+   color: rgb(54, 53, 54);
+   padding-bottom: 30px;
+}
+.top_section h4{
+    font-size: 20px;
+   font-weight: 700;
+   color: rgb(54, 53, 54);
+   padding-bottom: 20px;
+}
+.top_section p{
+
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 17px;
+color: rgb(88, 87, 87);
+}
+.top_section a{
+    padding:12px 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(-180deg, orange, tomato);
+    color:white;
+    outline: 0;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.top_section a:hover{
+    background-image: linear-gradient(180deg, rgb(206, 143, 27), rgb(194, 43, 17));
+}
+#img_section{
+    width: 20%;
+    float: right;
+    margin-top: -50px;
+    margin-right: -80px;
+   
+}
+.bottom_secion{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 400px;
+    border-left: 8px solid rgb(240, 120, 120);
+    box-shadow:0px 0px  40px  rgb(110, 110, 110);
+  
+}
+.footer{
+    width: 100%;
+   float: left;
+   text-align: center;
+   margin-top: 150px ;
+   margin-bottom: 20px;
+    
+}
+.full_bottom_section h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(54, 53, 54);
+    padding-bottom: 30px; 
+    padding-top: 30px;
+    
+}
+.full_bottom_section h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(54, 53, 54);
+  margin-bottom: 40px;
+  margin-left: 5%;
+    padding-left: 2%;
+
+}
+
+
+.bottom_secion img{
+ background: transparent;
+    position: absolute;
+    margin-left: -110px;
+    margin-top: -200px;
+    /* opacity: 0.8; */
+  
+}
+.bottom_secion h3{
+    padding-bottom: 20px;
+  
 }
